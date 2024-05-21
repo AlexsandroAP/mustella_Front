@@ -19,9 +19,9 @@
 
     <body class="bg-high-purplle flex justify-center items-center h-screen ">
 
-        <div class="flex flex-col justify-center items-center h-scree">
+        <div class="flex flex-col justify-center items-center h-scre text-center">
 
-            <p class="text-orange text-4xl font-bold">Olá!</p>
+            <p class="text-orange flex justify-center items-center text-4xl font-bold">Olá!</p>
             <p class="text-basic-gray text-xl mb-6 ">Bem vindo(a) ao Mustela sua plataforma de estudos.</p>
 
             <div>
@@ -54,8 +54,14 @@
 
 
             <div class="flex mt-4">
-                <div class="m-2"> <x-instagram-logo/></div>
-                <div class="m-2"> <x-instagram-logo/></div>
+                <button class="m-2">
+                    <div> <x-instagram-logo/></div>
+                </button>
+
+                <button class="m-2">
+                    <div > <x-email-logo/></div>
+                </button>
+                
             </div>
 
 
