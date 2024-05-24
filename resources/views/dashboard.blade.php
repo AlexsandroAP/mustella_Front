@@ -1,9 +1,9 @@
 <x-app-layout>
-    <div class="py-12">
+    <div class="py-12 text-white">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white shadow-sm">
-                <div class="flex px-10 bg-high-purplle">
-                    <div class="mr-9 bg-white p-6 text-black w-1/2">
+                <div class="md:flex px-10 bg-high-purplle">
+                    <div class="mr-9 p-6 text-black w-full md:w-1/2 mb-4 md:mb-0">
                         
                         <div class="flex items-center">
                             <!-- circuloPerfil -->
@@ -16,12 +16,17 @@
 
                         <div class="overflow-auto">
                             <p>Modelo TCP/IP e tipos de rede</p>
-                            <p class="text-orange">#TI #redesdecomputadores</p>
+                            <p class="text-orange text-xs">#TI #redesdecomputadores</p>
+                        </div>
+
+                        <div class="flex mt-3">
+                            <x-image-pesquisa class="w-full h-full"></x-image-pesquisa>
                         </div>
 
                     </div>
 
-                    <div class=" bg-white p-6 text-black w-1/2">
+
+                    <div class="mr-9 p-6 text-black w-full md:w-1/2 mb-4 md:mb-0">
                         
                         <div class="flex items-center">
                             <!-- circuloPerfil -->
@@ -34,13 +39,21 @@
 
                         <div class="overflow-auto">
                             <p>Modelo TCP/IP e tipos de rede</p>
-                            <p class="text-orange">#TI #redesdecomputadores</p>
+                            <p class="text-orange text-xs">#TI #redesdecomputadores</p>
+                        </div>
+
+                        <div class="flex mt-3">
+                            <x-image-pesquisa class="w-full h-full"></x-image-pesquisa>
                         </div>
 
                     </div>
 
-
+                </div>
             </div>
         </div>
+
+        
     </div>
+
+    
 </x-app-layout>
