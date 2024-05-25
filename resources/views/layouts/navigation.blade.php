@@ -6,9 +6,9 @@
                 
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                <div class="flex justify-center items-center space-x-8 sm:-my-px sm:ms-10 sm:flex text-white">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        <img class="w-10 h-10" src="{{ asset('imagens/seta.png') }}" alt="seta">
                     </x-nav-link>
                 </div>
             </div>

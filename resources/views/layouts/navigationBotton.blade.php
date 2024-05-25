@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="flex justify-center items-center bg-cinza-escuro p-4 md:p-5 rounded-t-extra-lg border-none fixed bottom-0 left-0 w-full z-50 border-gray-100">
+<nav x-data="{ open: false }" class="flex justify-center items-center bg-purplle p-4 md:p-5 rounded-t-extra-lg border-none fixed bottom-0 left-0 w-full z-50 border-gray-100">
 
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
