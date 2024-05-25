@@ -1,10 +1,10 @@
 <x-app-layout>
-    <div class="py-12 text-white">
+    <div class="py-12 text-white flex justify-center min-h-screen mt-20">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white shadow-sm">
                 <div class="md:flex px-10 bg-high-purplle">
-                    <div class="mr-9 p-6 text-black w-full md:w-1/2 mb-4 md:mb-0">
-                        
+
+                    <div class="mr-9 p-6 text-black w-full md:w-1/2 md:mb-3 md:ml-20">
                         <div class="flex items-center">
                             <!-- circuloPerfil -->
                             <div class="w-12 h-12 bg-orange rounded-full"></div> 
@@ -19,14 +19,14 @@
                             <p class="text-orange text-xs">#TI #redesdecomputadores</p>
                         </div>
 
-                        <div class="flex mt-3">
+                        <div class="flex md:mt-3 ">
                             <x-image-pesquisa class="w-full h-full"></x-image-pesquisa>
                         </div>
 
                     </div>
 
 
-                    <div class="mr-9 p-6 text-black w-full md:w-1/2 mb-4 md:mb-0">
+                    <div class="mr-9 p-6 text-black w-full md:w-1/2 md:mb-0 md:ml-20">
                         
                         <div class="flex items-center">
                             <!-- circuloPerfil -->
@@ -42,7 +42,7 @@
                             <p class="text-orange text-xs">#TI #redesdecomputadores</p>
                         </div>
 
-                        <div class="flex mt-3">
+                        <div class="flex md:mt-3 ">
                             <x-image-pesquisa class="w-full h-full"></x-image-pesquisa>
                         </div>
 

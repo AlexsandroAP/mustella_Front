@@ -27,6 +27,8 @@
                 </header>
             @endif
 
+            @include('layouts.navigationBotton')
+
             <!-- Page Content -->
             <main>
                 {{ $slot }}

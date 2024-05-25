@@ -15,6 +15,10 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+
+            borderRadius: {
+                'extra-lg': '1.5rem',
+            }
         },
 
         colors:{
@@ -26,6 +30,7 @@ export default {
         'gray':'#D9D9D9',
         'white':'#ffffff',
         'red': '#c1121f',
+        'cinza-escuro':'#202C3D',
 
         },
     },
