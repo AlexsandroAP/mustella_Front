@@ -18,7 +18,14 @@ export default {
 
             borderRadius: {
                 'extra-lg': '1.5rem',
-            }
+            },
+
+            spacing: {
+                '5rem': '5rem',
+                '10rem': '10rem',
+            },
+
+
         },
 
         colors:{
