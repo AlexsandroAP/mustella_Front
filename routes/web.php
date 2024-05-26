@@ -19,6 +19,10 @@ Route::get('/pesquisa', function () {
     return view('pesquisa');
 })->middleware(['auth'])->name('pesquisa');
 
+Route::get('/confirmarPost', function () {
+    return view('confirmarPost');
+})->middleware(['auth'])->name('confirmarPost');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

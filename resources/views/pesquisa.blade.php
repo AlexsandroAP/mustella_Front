@@ -52,6 +52,55 @@
                     </div>
 
                 </div>
+
+                <div class="md:flex px-10 bg-high-purplle">
+
+                    <div class="mr-9 p-6 text-black w-full md:w-1/2 md:mb-3 md:ml-20">
+                        <div class="flex items-center">
+                            <!-- circuloPerfil -->
+                            <div class="w-12 h-12 bg-orange rounded-full"></div> 
+
+                            <div class="ml-1">
+                                {{ Auth::user()->name }}
+                            </div>
+                        </div>
+
+                        <div class="overflow-auto">
+                            <p>Modelo TCP/IP e tipos de rede</p>
+                            <p class="text-orange text-xs">#TI #redesdecomputadores</p>
+                        </div>
+
+                        <div class="flex md:mt-3 ">
+                            <x-image-pesquisa class="w-full h-full"></x-image-pesquisa>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mr-9 p-6 text-black w-full md:w-1/2 md:mb-0 md:ml-20">
+                        
+                        <div class="flex items-center">
+                            <!-- circuloPerfil -->
+                            <div class="w-12 h-12 bg-orange rounded-full"></div> 
+
+                            <div class="ml-1">
+                                {{ Auth::user()->name }}
+                            </div>
+                        </div>
+
+                        <div class="overflow-auto">
+                            <p>Modelo TCP/IP e tipos de rede</p>
+                            <p class="text-orange text-xs">#TI #redesdecomputadores</p>
+                        </div>
+
+                        <div class="flex md:mt-3 ">
+                            <x-image-pesquisa class="w-full h-full"></x-image-pesquisa>
+                        </div>
+
+                    </div>
+
+                </div>
+                
                 <div class="md:flex px-10 bg-high-purplle">
 
                     <div class="mr-9 p-6 text-black w-full md:w-1/2 md:mb-3 md:ml-20">

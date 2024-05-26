@@ -8,7 +8,7 @@
                 <!-- Navigation Links -->
                 <div class="flex justify-center items-center space-x-8 sm:-my-px sm:ms-10 sm:flex text-white">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        <img class="w-10 h-10" src="{{ asset('imagens/seta.png') }}" alt="seta">
+                        <img class="w-10 h-10 min-w-10 min-h-10" src="{{ asset('imagens/seta.png') }}" alt="seta">
                     </x-nav-link>
                 </div>
             </div>
@@ -19,7 +19,7 @@
 
                 <a class="flex justify-center items-center bg-orange rounded-r-full px-5" href="{{route('pesquisa')}}">
                     <button>
-                        <img class="h-5 w-6" src="{{ asset('imagens/lupa.png') }}" alt="lupa">
+                        <img class="h-6 w-7 min-w-5 min-h-6" src="{{ asset('imagens/lupa.png') }}" alt="lupa">
                     </button>
                 </a>
             </div>
