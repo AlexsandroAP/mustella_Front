@@ -17,9 +17,11 @@
             <div class="flex my-2.5 ml-6 flex-grow w-full border border-none rounded-full bg-purplle text-white">
                 <input class="focus:ring-0 rounded-full bg-purplle w-full placeholder-white pl-8 border-none" type="text" placeholder="Pesquise">
 
-                <button class="bg-orange rounded-r-full px-5">
-                    <img src="{{ asset('imagens/lupa.png') }}" alt="lupa">
-                </button>
+                <a class="flex justify-center items-center bg-orange rounded-r-full px-5" href="{{route('pesquisa')}}">
+                    <button>
+                        <img class="h-5 w-6" src="{{ asset('imagens/lupa.png') }}" alt="lupa">
+                    </button>
+                </a>
             </div>
 
             <!-- Settings Dropdown -->

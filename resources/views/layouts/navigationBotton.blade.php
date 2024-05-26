@@ -5,16 +5,18 @@
         <div class="flex justify-between h-16">
             <div class="flex justify-center items-center">
                 <button class="rounded-r-full">
-                    <img class="w-10 h-10" src="{{ asset('imagens/lock.png') }}" alt="lupa">
+                    <img class="w-10 h-10" src="{{ asset('imagens/lock.png') }}" alt="Lupa">
                 </button>
 
-                <button class="rounded-r-full ml-20">
-                    <img class="w-10 h-10" src="{{ asset('imagens/home.png') }}" alt="lupa">
-                </button>
+                <a href="{{route('dashboard')}}">
+                    <button class="rounded-r-full ml-20">
+                        <img class="w-10 h-10" src="{{ asset('imagens/home.png') }}" alt="Home">
+                    </button>
+                </a>
 
                 <a href="{{route('postagem')}}">
                     <button class="rounded-r-full ml-20">
-                        <img class="w-10 h-10" src="{{ asset('imagens/mais.png') }}" alt="lupa">
+                        <img class="w-10 h-10" src="{{ asset('imagens/mais.png') }}" alt="Post">
                     </button>
                 </a>
             </div>
