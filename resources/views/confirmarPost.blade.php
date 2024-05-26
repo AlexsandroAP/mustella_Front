@@ -20,7 +20,7 @@
 
                     <div>
                         <a href="{{route('enviarPost')}}">
-                            <button class="bg-orange rounded-full px-8 py-2 mt-5 text-high-purplle">Avançar
+                            <button class="bg-orange rounded-full px-8 py-2 mt-5 text-high-purplle">Postar
                             </button>
                         </a>
                     </div>

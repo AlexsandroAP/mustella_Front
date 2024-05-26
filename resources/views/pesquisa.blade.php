@@ -17,7 +17,7 @@
                             </div>
                         </div>
 
-                        <div class="overflow-auto">
+                        <div class=" mt-1 overflow-auto">
                             <p>Modelo TCP/IP e tipos de rede</p>
                             <p class="text-orange text-xs">#TI #redesdecomputadores</p>
                         </div>
@@ -40,7 +40,7 @@
                             </div>
                         </div>
 
-                        <div class="overflow-auto">
+                        <div class="mt-1 overflow-auto">
                             <p>Modelo TCP/IP e tipos de rede</p>
                             <p class="text-orange text-xs">#TI #redesdecomputadores</p>
                         </div>
@@ -65,7 +65,7 @@
                             </div>
                         </div>
 
-                        <div class="overflow-auto">
+                        <div class="mt-1 overflow-auto">
                             <p>Modelo TCP/IP e tipos de rede</p>
                             <p class="text-orange text-xs">#TI #redesdecomputadores</p>
                         </div>
@@ -88,7 +88,7 @@
                             </div>
                         </div>
 
-                        <div class="overflow-auto">
+                        <div class="mt-1 overflow-auto">
                             <p>Modelo TCP/IP e tipos de rede</p>
                             <p class="text-orange text-xs">#TI #redesdecomputadores</p>
                         </div>
@@ -113,7 +113,7 @@
                             </div>
                         </div>
 
-                        <div class="overflow-auto">
+                        <div class="mt-1 overflow-auto">
                             <p>Modelo TCP/IP e tipos de rede</p>
                             <p class="text-orange text-xs">#TI #redesdecomputadores</p>
                         </div>
@@ -136,7 +136,7 @@
                             </div>
                         </div>
 
-                        <div class="overflow-auto">
+                        <div class="mt-1 overflow-auto">
                             <p>Modelo TCP/IP e tipos de rede</p>
                             <p class="text-orange text-xs">#TI #redesdecomputadores</p>
                         </div>
