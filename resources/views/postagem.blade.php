@@ -27,7 +27,7 @@
 
                     <div>
                         <a href="{{route('confirmarPost')}}">
-                            <button class="bg-orange rounded-full px-8 py-2 mt-5">Avançar
+                            <button class="bg-orange rounded-full px-8 py-2 mt-5 text-high-purplle">Avançar
                             </button>
                         </a>
                     </div>

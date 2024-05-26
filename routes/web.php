@@ -23,6 +23,10 @@ Route::get('/confirmarPost', function () {
     return view('confirmarPost');
 })->middleware(['auth'])->name('confirmarPost');
 
+Route::get('/enviarPost', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('enviarPost');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

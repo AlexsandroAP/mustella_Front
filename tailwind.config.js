@@ -23,6 +23,8 @@ export default {
             spacing: {
                 '5rem': '4rem',
                 '10rem': '10rem',
+                '20rem': '18rem',
+                '22rem': '22rem',
             },
 
 
